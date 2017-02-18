@@ -21,4 +21,5 @@ npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/:
 La parte importante es el extends: airbnb. Si queréis reglas propias os las metéis en la propiedad rules.
 
 3.) Instalar eslint globalmente: npm install -g eslint
+
 4.) En el editor que uséis (atom, code, sublime, y demás mierdas, os recomiendo vim ;) ) instaláis el plugin correspondiente de eslint.
